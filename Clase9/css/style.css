@@ -1,0 +1,36 @@
+body{
+    background-color: coral;
+    font-family: 'Rampart One', cursive;
+}
+/* Estilos del header */
+header{
+    background-color: #8d18c4;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+ul{
+    list-style: none;
+}
+
+li,i{
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.caja1{
+    background-color: chartreuse;
+    border: 10px blue;
+    color:aliceblue;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+
+}

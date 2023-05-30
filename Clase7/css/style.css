@@ -1,0 +1,20 @@
+/* selector{
+    propiedad: valor;
+} */
+
+/* Selector de etiqueta */
+body{
+    background-color: hotpink;
+}
+
+.destacado{
+    text-decoration-color: brown;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#whatever{
+    background-color: blueviolet;
+    font-style: oblique;
+
+}

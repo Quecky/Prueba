@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+@font-face {
+    font-family: "YatraOne";
+    src: url(../fonts/YatraOne-Regular.ttf);
+}
+body{
+    background-color: lightgreen;
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+span{
+    font-style: italic;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.fondos{
+    background-color: rgb(200, 100, 150);
+    font-family: 'Indie Flower', cursive;
+}
+.fuentes{
+    background-color: rgb(102, 100, 200);
+    background-image: url("../img/letras.jpg");
+    background-repeat: no-repeat;
+    background-position: 150px top right ;
+}
+
+#especifica
+{
+    font-family: 'YatraOne';
+}

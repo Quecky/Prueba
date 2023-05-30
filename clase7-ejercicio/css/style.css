@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@font-face {
+    font-family: "YatraOne";
+    src: url(../fonts/YatraOne-Regular.ttf);
+}
+header{
+    background-image: url(../img/dali.jpg);
+    background-repeat: no-repeat;
+    /* background-position: top right ; */
+    background-color: lightpink;
+    height: 200px;
+    background-size:contain;
+    background-position-x: center;
+   
+}
+h1{
+text-align: center;
+position:relative;
+top:190px;
+font-family: "YatraOne";
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.titulos{
+    background-color:cadetblue;
+    
+}
+
+
+body{
+    align-content: center;
+
+}  
