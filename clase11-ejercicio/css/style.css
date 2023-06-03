@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del header */
+
+header{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+
+nav{
+  align-self: center;
+  display: block;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 7px; 
+}
+/* Estilos del main */
+main{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promocion{
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 24px;
+    height: 350px;
+    width: 490px;
+}
+.promocion span{
+    color:red
+}
+
+.promocion p {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.promocion div{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 30px;
+}
+.menu{
+    background-color: white;
+    height: 350px;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Estilos del footer */
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #222222;
+    color: #F3F3F3;
+    
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.caja1{
+background-color: darkorange;
+color:green;
+/* pone la caja  hacia el fin del eje principal */
+align-self: flex-end;
+}
+.caja2{
+    background-color: firebrick;
+    color:darksalmon;
+    /* pone la caja hacia el inicio del eje principal */
+    align-self: flex-start;
+}
+
+.caja3{
+    background-color: deeppink;
+    color:aqua;
+}
+
+.caja4{
+    background-color: dodgerblue;
+    color:blueviolet;
+}
+
+article{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: center;
+    
+}
+.box{
+    font-size: 24px;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    /* el eje principal es vertical de abajo a arriba por el reverse */
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 400px;
+    margin: 20px;
+}
