@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 16</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <!-- Siempre que nos pregunten algo hablamos de un formulario -->
+            <!-- Todo debe ir dentro del formulario -->
+            <form class="formulario" action="proceso.php" method="post">
+                <fieldset>
+                    <!-- Legend asigna un titulo a un grupo de campos -->
+                    <legend>Datos de registro</legend>
+                    <div class="entrada">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario" required>
+                    </div>
+                    <div class="entrada">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" id="pass" name="pass" placeholder="Contraseña" requiered>
+                    </div>
+                    <div class="entrada">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="entrada">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apeliido" id="apellido">
+                    </div>
+                    <div class="entrada">
+                        <label for="fecha-nac">Fecha de nacimiento</label>
+                        <input type="date" name="fecha-nac" id="fecha-nac">
+                    </div>
+                    <div class="entrada">
+                        <label for="foto">Foto</label>
+                        <input type="file" name="foto" id="foto">
+                    </div>
+                    <div class="entrada">
+                        <label for="color">Color favorito</label>
+                        <input type="color" name="color" id="color">
+                    </div>
+                    <legend class="sub">Grupo etario</legend>
+                    <div class="entrada">
+                        <input type="radio" name="edad" id="menor30">
+                        <label class="label-especial"for="menor30">Menor de 30</label>
+                        <input type="radio" name="edad" id="menor30">
+                        <label class="label-especial"for="menor30">Menor de 30</label>
+                        <input type="radio" name="edad" id="menor30">
+                        <label class="label-especial"for="menor30">Menor de 30</label>
+                    </div>
+                    <legend class="sub">Pasatiempos</legend>
+                    <div class="entrada">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    <div class="entrada">
+                        <label for="telefono">Telefono</label>
+                        <!-- CONEXION CON LLAMADA  -->
+                        <input type="tel" name="telefono" id="telefono" placeholder="Número de telefono">
+                    </div>
+                    <div class="entrada">
+                        <label for="pais">País</label>
+                        <select name="pais" id="pais">
+                            <option value="AR">Argentina</option>
+                            <option value="CO">Colombia</option>
+                            <option value="PE">Perú</option>
+                            <option value="MEX">México</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <div class="entrada">
+                        <label for="comentarios">Dejar mensaje</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>A llenar por la empresa</legend>
+                    <div class="entrada">
+
+                    </div>
+                </fieldset>
+                <fieldset class="botones">
+                    <button type="reset">Limpiar todos los datos</button>
+                    <button type="submit">Enviar datos</button>
+                    <input type="submit" value="Otra forma de enviar los datos">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

@@ -20,6 +20,7 @@ header{
     align-items: center;
     padding: 10px;
 }
+p {color: rgba(255,255,255,0.5);}
 
 .logo{
     display: flex;
@@ -38,6 +39,8 @@ nav a{
     text-decoration: none;
     color: white;
     padding: 7px; 
+    
+    
 }
 /* Estilos del main */
 main{

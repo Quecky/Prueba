@@ -1,0 +1,28 @@
+main{
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main button:hover{
+    background-color:gray;
+    /* box-shadow:10px 10px 5px 0px black; */
+    color: black;
+    transition: all 2s linear;
+    transform:translate(30px);
+    /* transform:skew(10deg,20deg) */
+    /* transform:scale(1.5); */
+
+
+}
+
+main button:focus{
+    background-color: blueviolet;
+}
+
+main button:active{
+    background-color: aqua;
+}
+

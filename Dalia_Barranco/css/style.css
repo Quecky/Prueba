@@ -1,0 +1,648 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+
+/* Caracteristicas generales */
+body{
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* header */
+
+ul{
+    list-style: none;
+}
+
+header{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 7vw;
+
+}
+header i{
+    display: inline;
+    font-size: 7vw;
+}
+.navegador{
+    display: none;
+}
+
+header .contact{
+    display: none;
+}
+
+.logo img{
+    width: 20vw;;
+}
+
+/* main */
+
+.info{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0; 
+    text-align: right;  
+}
+
+.principal{
+    padding-bottom: 6.5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 15vw;
+}
+
+
+.info span{
+    font-size: 3.2vw; 
+    padding-bottom: 5vw;
+    line-height: 5.5vw;
+}  
+
+h2{
+    font-size:8vw;
+    font-weight: bolder;
+}
+
+h1{
+    font-size: 8.5vw; 
+    /* font-weight: bolder; */
+    padding-top: 8vw;
+    margin-bottom: 5vw;
+}
+
+span{
+    font-size: 2.5vw;
+}
+
+p{
+    font-size: 3.5vw;
+    /* font-weight: 500; */
+    line-height: 5vw;
+    color:rgb(187, 185, 185);
+    font-weight: thin;
+}
+
+.foto img{
+    width: 80vw;
+}
+
+
+
+button, input[type="submit"]{
+    border: none;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    color:white;
+    font-size: 2.7vw; 
+    padding: 3vw;
+    width: 28vw; 
+}
+
+button:hover, input[type="submit"]:hover{
+    background-color: #954bce;
+    
+}
+.bluporp{
+    background-color: #3CDDF3;
+    color: white;
+}
+.bluporp p{
+    color: white;
+}
+
+
+.pregunta{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3vw;
+    padding-left: 6vw;
+    padding-right: 11vw;
+    padding-top: 3vw;
+    text-align: left;
+}
+.pregunta p:first-child{
+    display: block;
+} 
+.pregunta p:last-child{
+    display: none;
+}
+
+.ventaja h3::before{
+    background-color: #8B48BF;
+    border-radius: 20px;
+    color:white;
+    font-size: 2.5vw;
+    margin-right: 3.3vw;
+    padding-bottom: 1.9vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 1.9vw;   
+}
+
+
+.ventaja:nth-child(1) h3::before{
+    content: '01';
+}
+.ventaja:nth-child(2) h3::before{
+    content: '02';
+}
+.ventaja:nth-child(3) h3::before{
+    content: '03';
+}
+
+.tresventajas{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vw;
+}
+.ventaja{
+    display: flex;
+
+    flex-direction: column;
+    padding-left: 10vw;
+    text-align: left;
+}
+.ventaja p{
+    padding-right: 10vw;
+}
+
+.ventaja h3{
+    background-color:rgb(211, 189, 223);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px; 
+    display: inline-block;
+    font-size: 2.5vw;
+    padding: 1.9vw 9vw 1.9vw 0;
+    width:auto;
+    
+}
+
+.gente article:first-child{
+    display: none;
+}
+.gente article:last-child{
+    display: none;
+}
+
+.lomejordelmes h2{
+    padding-top: 6vw;
+}
+
+.fondogris{
+    background-color:rgb(249, 249, 249) ;
+    padding: 4vw;
+    padding-top: 7vw;
+    
+}
+
+
+
+.gente{      
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 8vw;
+    padding-top: 0;   
+}
+
+.gente img{
+    position:relative; 
+    text-align: center; 
+    top:8vw; 
+    width: 16vw;
+}
+
+h4{
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+.gente article{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+.losmejoresequipos{
+    margin-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2vw;
+
+}
+.losmejoresequipos h2{
+    padding-bottom: 5vw;
+}
+
+.losmejoresequipos button{
+    background-color:#232851;
+}
+
+.losmejoresequipos h2::after{
+    content: '\Ayear';
+    white-space: pre;
+}
+
+/* footer */
+footer{
+    display: flex;
+    background-color: #1E1E26;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: flex-start;
+    height: 90vw;
+    justify-content: space-around;
+    padding: 5vw; 
+    padding-top: 10vw;
+    padding-bottom: 6vw;
+    flex-wrap:wrap;
+
+}
+
+.reverse{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+footer i{
+    color: white;
+    font-size: 5vw;
+}
+
+footer a{
+    color: white;
+    line-height: 7vw;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 400;
+
+}
+
+
+
+footer nav{
+    align-items: flex-start;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 30vw; 
+    justify-content: flex-start;
+
+    text-align: center;
+    width: 100vw;
+
+}
+
+footer input[type="email"]{
+    border-radius: 50px;
+    border:0;
+    font-size: 3vw;
+    padding: 2.5vw;
+    width: 50vw;
+    color:gray;
+}
+
+footer input[type="submit"]{
+    margin-left: 0.9vw;
+    width: 14vw;
+    font-size: 3vw;
+
+}
+
+footer form{
+    margin-bottom: 10vw;
+}
+
+footer span{
+    color:gray;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8vw;
+    flex-wrap: wrap;
+    width: 75vw;
+}  
+
+
+
+/* Medias queries */
+@media(width>480px){
+    /* header */
+    
+    header{
+        padding-top: 4vw;
+    }
+
+     .navegador{
+        display: inline-block;
+         
+    } 
+    .navegador nav{
+        display: flex;
+        justify-content: space-evenly;
+        width: 35vw;
+        flex-wrap: wrap; 
+   
+    }
+    .navegador a {
+        color:black;
+        text-decoration: none;
+        text-decoration-line: none;
+        font-size: 1.1vw;
+   
+    }
+    header .contact{
+        display:inline;
+    }
+
+    header .fa-solid{
+        display: none;
+    }
+
+    .logo img{
+        width: 10vw;;
+    }
+
+/* main */
+    h2{
+        font-size:2.2vw;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 1.1vw;
+        line-height: 1.7vw;
+    }
+
+
+    .principal{
+        padding-top: 10vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .foto img{
+        width: 35vw;
+
+    } 
+
+    .info{
+        padding-left: 11vw;
+    }
+
+    .info h1{
+        font-size: 3.4vw;
+        padding-top: 0;
+    }
+
+    span{
+        font-size: 1.15vw;
+    }
+
+    .info span{
+        font-size: 1.3vw;
+        padding-bottom: 3vw; 
+        line-height: 2vw;
+    }
+
+    button, input[type="submit"]{
+        font-size: 1vw; 
+        padding: 1.15vw;
+        width: 10vw; 
+    }
+
+
+    .bluporp{
+        background-color:#8B48BF;
+    }
+
+    .pregunta{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 1.5vw;
+        padding-left: 16vw;
+        padding-right: 16vw;
+        padding-top: 1.5vw;  
+    }
+
+    .pregunta h2{
+        padding-right: 8vw;    
+        width: 95vw;
+  
+    }
+
+    .pregunta p:last-child{
+        display: block;
+    }
+
+    .pregunta p:nth-child(2){
+        display: none;
+        visibility: hidden;
+    } 
+
+    .ventaja h3::before{
+        font-size: 1vw;
+        margin-right: 1.8vw;
+        padding-bottom: 1vw;
+        padding-left: 1.7vw;
+        padding-right: 1.7vw;
+        padding-top: 1vw;   
+    }
+
+    .tresventajas{
+        align-items: center;  
+        background-color:rgb(249, 249, 249);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2vw;
+        padding-top: 2vw;
+    }
+
+    .ventaja{
+        padding-left: 12vw;
+    }
+
+    .ventaja p{
+        width: 28.5vw;
+        padding-right: 5vw;
+    }
+
+    .ventaja h3{
+        align-self: left;
+        background-color:rgb(249, 249, 249);
+        position: relative;
+        font-size: 1.1vw;
+        right:6.5vw;
+        padding: 0.5vw 9vw 0.5vw 0;
+        margin-bottom: 0;
+    }
+
+    h4{
+        font-size: 1.3vw;
+    }
+
+
+    .gente article:first-child{
+        display: inline-block;
+    }
+
+    .gente article:last-child{
+        display: inline-block;
+    }
+
+    .gente img{
+        top:3vw;
+        width: 6.5vw;
+    }
+
+    .gente article{
+        padding-left: 0;
+        padding-top: 2vw;
+        padding-right: 0;
+        width: 30vw;
+    }
+
+    .gente{
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 0;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        padding-bottom: 4vw;
+        padding-top: 0;
+    }
+
+    .fondogris{
+        padding: 1.5vw;
+        padding-bottom: 2vw;
+        padding-top: 2vw;
+    }
+
+    .losmejoresequipos{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12vw;
+        padding-bottom: 1.5vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        padding-top: 1.5vw;
+    
+    }
+
+    .losmejoresequipos h2{
+        text-align: left;
+        font-size: 2.3vw;
+        padding-bottom: 0; 
+    }
+    
+    .losmejoresequipos button{
+        align-self: center;
+        background-color:white;
+        color:#8B48BF;
+        margin-right: 6vw;
+    }
+
+    .losmejoresequipos h2::after{
+        content: 'year';
+    }
+
+    /* footer */
+
+    footer{
+        height: 15vw;
+        padding: 4vw 10vw 5vw 10vw;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .reverse{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    footer nav{
+        justify-items: flex-start;
+        align-items: flex-start;
+        align-content: space-between;
+        height: 14vw; 
+        justify-content: flex-start;
+        width: 25vw;
+        margin-left: 3vw; 
+        text-align: left;
+    }
+
+    footer input[type="email"]{
+        width: 14vw;
+        font-size: 1.1vw;
+        padding: 1vw;
+    }
+
+    footer input[type="submit"]{
+        margin-left: 0.5vw;
+        width: 5vw;
+        font-size: 1.1vw;
+    } 
+
+    footer span{
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-top:10vw;
+        margin-bottom: 0;
+        position: absolute;
+    }
+
+    .redes{
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5vw; 
+        width: 14vw;    
+    }
+
+    .redes i{
+        font-size: 1.9vw;
+    }
+
+    footer i{
+        font-size: 2vw;
+    }
+
+    footer a{
+        line-height: 3.1vw;
+        font-size: 1.3vw;
+    }
+
+    footer article{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+}
